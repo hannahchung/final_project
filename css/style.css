@@ -1,0 +1,212 @@
+* {
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+  -moz-box-sizing:border-box;
+  -webkit-box-sizing:border-box;
+}
+
+.clearfix:after {
+     content: ".";
+     display: block;
+     clear: both;
+     visibility: hidden;
+     line-height: 0;
+     height: 0;
+}
+
+.clear {
+  clear: both;
+}
+
+.fl {
+  float: right;
+}
+
+.fl {
+  float: left;
+}
+
+.clear-parent {
+  overflow: hidden;
+}
+
+
+a {
+	font-family: sans-serif;
+	font-size: 10px;
+	color:#7e7e7e;
+}
+
+h2 {
+	margin-top: 30px;
+	margin-left: 30px;
+	display:block;
+	width:200px;
+}
+
+
+h1 {
+	font-family:'Sorts Mill Goudy'; serif;
+	font-size: 34px;
+}
+
+.about {
+	margin-top:0px;
+	width: 50%;
+	height: 80vh;
+	display:block;
+	float:left;
+
+}
+.about span {
+	font-family:'Sorts Mill Goudy'; serif;
+	text-transform: uppercase;
+	display:block;
+	float:left;
+	color: #c2c2c2;
+	font-size:42px;
+	padding-left: 30px;
+	padding-top: 30px;
+	padding-right:100px;
+
+
+}
+
+.categories {
+	display:block;
+	float:right;
+	width:50%;
+	height: 80vh;
+	margin-top:0px;
+	position: relative;
+}
+
+
+.events {
+	/*display:block;*/
+	display:table;
+	height:40vh;
+	background-image: url("../images/landing/events.jpg");
+	background-repeat: no-repeat;
+    background-size: cover; 
+    background-position: center;
+	color: #ffffff;
+	text-align: center;
+	width:100%;
+}
+.branding {
+	display:table;
+	float:left;
+	width:50%;
+	height: 40vh;
+	position: absolute;
+	background-image: url("../images/landing/branding.png");
+	background-size: cover; 
+	background-repeat: no-repeat;
+    background-position: center;
+	color: #ffffff;
+	text-align: center;
+}
+
+.advertising {
+	display:table;
+	float:right;
+	width:50%;
+	height: 50%;
+	margin-top:0px;
+	background-image: url("../images/landing/advertising.png");
+	background-size: cover;
+	background-repeat: no-repeat;
+    background-position: center;
+	color: #ffffff;
+	text-align: center;
+}
+
+.categories a {
+	color: white;
+}
+
+.featuredwork1 {
+	width:100%;
+	height: 80vh;
+	background-color: #e5e5e5;
+}
+
+.featuredwork1 h1 {
+	text-align: middle;
+
+}
+.googleimages {
+	background-repeat: no-repeat;
+    background-position: center;
+    height: 550px;
+    background-color: #e5e5e5;
+}
+
+.googletext {
+	margin: 1px auto;
+	width: 600px;
+	text-align: center;
+	padding-top: 50px;
+	line-height: 150%;
+}
+
+p {
+	font-family:'Sorts Mill Goudy'; serif;	
+}
+
+.clients img {
+/*	background-color: #ffffff;
+	background-image: url("../images/clients/logos.jpg");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	height:500px;
+	width: 100%;*/
+	width: 100%;
+}
+
+
+.branding_cnt {
+	display:table-cell;
+	vertical-align:middle;
+}
+
+
+.events_cnt {
+	display:table-cell;
+	vertical-align:middle;
+}
+
+.googleimages {
+	position: relative;
+}
+
+.fetty {
+	margin-left: 35%;
+	z-index: 50;
+}
+
+.chetfaker {
+	margin-left: 25%;
+	position: absolute;
+	left: 0%;
+	top:50%;
+	z-index
+}
+
+.contact {
+	background-color: black;
+	padding-top: 15px;
+	padding-bottom: 30px;
+}
+
+.contact li a {
+	font-family:'Sorts Mill Goudy'; serif;
+	font-size: 34px;
+	text-decoration: none;
+	margin-left: 30px;
+	line-height: 1.2;
+}
+
